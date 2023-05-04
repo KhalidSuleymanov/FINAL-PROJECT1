@@ -1,0 +1,215 @@
+body {
+  background-color: rgb(237, 237, 237);
+}
+
+#navbar .nav-header {
+  margin: 0 auto;
+  background-color: rgb(237, 237, 237);
+  position: absolute;
+  z-index: 1;
+  top: 7.5%;
+  width: 72%;
+  left: 10.5%;
+  display: flex;
+  justify-content: space-between;
+}
+#navbar .nav-header .language {
+  display: flex;
+  margin-left: 2rem;
+}
+#navbar .nav-header .language .u-near {
+  margin: 0px 4px;
+  font-size: 13px;
+  color: gray;
+}
+
+.container {
+  margin-top: 90px;
+  width: 85%;
+}
+
+.container {
+  width: 85%;
+}
+
+#first-slider {
+  background-color: rgb(250, 250, 250);
+  width: 50%;
+  height: 62rem;
+  border-radius: 10px;
+  box-shadow: 0 35px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 14px 0 rgba(0, 0, 0, 0.17);
+}
+#first-slider .bankingslider {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#first-slider .bankingslider .slid-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  padding: 10px 115px;
+}
+#first-slider .bankingslider .slid-title1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  padding: 10px 115px;
+  text-align: left;
+}
+#first-slider .bankingslider .slid-info {
+  padding: 5px 115px;
+  line-height: 18px;
+  color: grey;
+  font-size: 16px;
+}
+#first-slider .bankingslider img {
+  width: 62%;
+  margin-left: 7rem;
+  border-radius: 9px;
+  box-shadow: 14px 14px 35px 0 rgba(0, 0, 0, 0.15);
+}
+
+#second-slider {
+  background-color: #ffffff;
+  height: 62rem;
+  border-radius: 10px;
+  box-shadow: 0 40px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#second-slider .second-slider-name {
+  display: flex;
+  padding: 60px 20px 15px 20px;
+  align-items: center;
+}
+#second-slider .second-slider-name .second-big-title {
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 1.4rem;
+}
+#second-slider .second-slider-name .regis {
+  margin-left: 8.7rem;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+#second-slider .image-designforslid img {
+  margin-left: 30px;
+  width: 110%;
+}
+#second-slider .buttones {
+  margin-left: 40px;
+}
+#second-slider .buttones .active {
+  border: 1px solid #f36100 !important;
+}
+#second-slider .buttones .active p {
+  text-decoration: underline;
+  text-decoration-color: #eb5e00;
+}
+#second-slider .buttones .two-butt button {
+  width: 200%;
+  padding: 15px 0px;
+  border: 1px solid rgb(207, 206, 206);
+  border-radius: 7px;
+  background-color: #ffffff;
+}
+#second-slider .buttones .two-butt button .cdnicon {
+  margin-left: 11px;
+}
+#second-slider .buttones .two-butt :nth-child(2) {
+  margin-top: 2rem;
+}
+#second-slider .nottes {
+  background-color: #e8e8e8;
+  width: 94.5%;
+  display: flex;
+}
+#second-slider .nottes i {
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+}
+#second-slider .nottes p {
+  margin-left: 0.5rem;
+  margin-top: 0.7rem;
+}
+
+.pasp {
+  color: #FF6400;
+  font-size: 15px;
+}
+
+.resep {
+  float: left;
+  display: flex;
+  width: 95%;
+  margin: 10px 0;
+  position: relative;
+  border-bottom: 1px solid rgb(210, 210, 210);
+}
+
+.resep1 {
+  margin-left: 0.6rem;
+  display: flex;
+  width: 50%;
+  border-bottom: 1px solid rgb(209, 207, 207);
+}
+.resep1 .paint {
+  color: gray;
+  font-weight: 800;
+}
+
+.forg {
+  font-size: 14px;
+  text-decoration: underline;
+  color: gray;
+  margin-bottom: 33px;
+  margin-left: 0.5rem;
+}
+
+.bottom {
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #ff6400;
+}
+.bottom a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.bottom i {
+  color: #ffffff;
+}
+
+input[type=password],
+input[type=text] {
+  color: grey;
+  width: 100%;
+  font-size: 20px;
+}
+
+.eff {
+  border: 0;
+  outline: 0;
+  border-bottom: 0px;
+}
+
+.eff ~ .big-eff {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 1.5px;
+  background-color: #FF6400 !important;
+  transition: 0.4s;
+  outline: 0;
+}
+
+.eff:focus ~ .big-eff {
+  width: 100%;
+  left: 0;
+  transition: 0.1s;
+}/*# sourceMappingURL=internet.css.map */
